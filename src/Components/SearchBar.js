@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchBar() {
   return (
-    <div className="input-group mb-3" style={{border:"1px solid lightgray",}}>
+    <div className="input-group search-box mb-3" style={{border:"1px solid lightgray",}}>
       <input style={{border: "none"}}
         type="text"
         className="form-control"

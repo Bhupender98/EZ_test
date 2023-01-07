@@ -3,15 +3,19 @@ import React from 'react'
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container-fluid navbar-links d-flex">
         <a className="navbar-brand" href="#">
           Clints
         </a>
-        <div className="collapse navbar-collapse" id="navbarText">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div className=" navbar-collapse d-flex" id="navbarText">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item">
-              <a className="nav-link active down-arrow" aria-current="page" href="/">
-                <img 
+              <a
+                className="nav-link active down-arrow"
+                aria-current="page"
+                href="/"
+              >
+                <img
                   src="https://cdn-icons-png.flaticon.com/512/2952/2952212.png"
                   alt="down-arrow"
                 />

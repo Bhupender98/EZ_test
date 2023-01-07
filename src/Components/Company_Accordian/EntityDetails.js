@@ -3,7 +3,7 @@ import Company1 from './Company1';
 
 function EntityDetails() {
   return (
-    <div className="">
+    <div>
       <div className="add-entity d-flex justify-content-between p-2">
         <h5>4 Entities</h5>
 

@@ -7,7 +7,7 @@ function EntityCard() {
         <h6 style={{color: "blue"}}>Company Name</h6>
         <p>CODE</p>
       </div>
-      <div>
+      <div className='users'>
         <p>8 Entities</p>
         <p>64 Users</p>
       </div>

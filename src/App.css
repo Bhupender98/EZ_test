@@ -1,46 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.ez-logo{
+.ez-logo {
   height: 100%;
   width: 6%;
-  padding:1rem 0 88% 0; 
+  padding: 1rem 0 88% 0;
   display: flex;
   justify-content: center;
   background-color: #112949;
 }
-.clints-company{
+.clints-company {
   height: auto;
   width: 100%;
   display: flex;
   border: 1px solid green;
 }
-.clints{
+.clints {
   /* border: 1px solid red; */
   width: 28%;
   height: auto;
   padding: 0.5rem;
 }
-.about-company-container{
+.about-company-container {
   width: 72%;
   height: auto;
 }
 /* ez logo section  */
-.ez-logo img{
+.ez-logo img {
   height: 50px;
   width: 50px;
 }
 /* navbar nav items color to cyan  */
-.navbar-nav .nav-item a{
-  color: #3CC3F2 !important;
+.navbar-nav .nav-item a {
+  color: #3cc3f2 !important;
 }
-.down-arrow img{
+.down-arrow img {
   height: 25px;
   width: 25px;
 }
-.loggedIn{
+.loggedIn {
   height: 8vh;
   width: 100%;
   border: 1px solid lightgray;
@@ -48,137 +48,216 @@
   justify-content: flex-end;
   padding: 0.5rem 1rem;
 }
-.name-avatar{
+.loggedIn img {
+  display: none;
+}
+.name-avatar {
   display: flex;
   align-items: center;
 }
-#avatar_img{
+#avatar_img {
   height: 40px;
   width: 40px;
 }
 /* about company */
-.about-company{
+.about-company {
   height: auto;
   width: 100%;
 }
-.company-name-editbtn{
+.company-name-editbtn {
   display: flex;
   justify-content: space-between;
   padding: 10px 1rem;
   border: 1px solid lightgray;
 }
-.company-name-editbtn img{
+.company-name-editbtn img {
   height: 45px;
   width: 45px;
 }
-.company-code-logo{
+.company-code-logo {
   padding: 0.5rem 1rem;
 }
 
 /* domains types and their names  */
-.Domains{
+.Domains {
   display: flex;
   height: auto;
   width: 100%;
   border: 1px solid lightgray;
 }
-.Domains span{
-  color: #9CBDEB;
+.Domains span {
+  color: #9cbdeb;
   font-size: 0.9rem;
 }
-.domains-types{
+.domains-types {
   margin-left: 30%;
-} 
-.domains-types .ul-list{
+}
+.domains-types .ul-list {
   list-style-type: none;
 }
 
 /* types like: entities invoice and users  */
-.types-ul-list{
+.types-ul-list {
   display: flex;
   list-style: none;
   border-bottom: 1px solid lightgray;
 }
-.types-ul-list li{
+.types-ul-list li {
   padding-left: 10px;
 }
-.biling-details ul{
+.biling-details ul {
   list-style-type: none;
 }
-.biling-details ul li{
+.biling-details ul li {
   font-size: 0.95rem;
 }
 
-
 /* accordian  */
-.accordians ul{
+.accordians ul {
   list-style-type: none;
 }
-.accordians ul li{
+.accordians ul li {
   color: gray;
   font-size: 0.95rem;
 }
-.accordians ul li span{
+.accordians ul li span {
   color: #112949;
   font-size: 0.85rem;
   padding: 10px;
 }
-#editButton{
+#editButton {
   font-size: 1.8rem;
   padding: 0.4rem 1rem;
-  color: #3CC3F2;
+  color: #3cc3f2;
   border: none;
   background: transparent;
 }
+
+/* responsiveness for iphone 12 and iphone 13 pro max  */
 @media screen and (max-width: 400px) {
-  .ez-logo{
-  /* height: 100%;
+  .ez-logo {
+    /* height: 100%;
   width: 6%;
   padding:1rem 0 88% 0; 
   display: flex;
   justify-content: center;
   background-color: #112949; */
-  display: none;
-}
-.clints-company{
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-  flex-wrap: wrap;
-  border: 1px solid green;
-}
-.clints{
-  width: 100%;
-  height: auto;
-  padding: 0.5rem;
-}
-.about-company-container{
-  width: 100%;
-  height: auto;
-}
-/* loggedIn page  */
-.loggedIn{
-  height: 5vh;
-}
-.name-avatar{
-  display: flex;
-  align-items: center;
-}
+    display: none;
+  }
+  .clints-company {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    border: 1px solid green;
+  }
+  .clints {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+  .about-company-container {
+    width: 100%;
+    height: auto;
+  }
+  /* loggedIn page  */
+  .loggedIn {
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #112949;
+    color: #ffff;
+  }
+  .loggedIn img {
+    display: block;
+  }
+  .name-avatar {
+    display: flex;
+    align-items: center;
+  }
 
-.name-avatar h5{
-  font-size: 1rem;
-}
-#avatar_img{
-  height: 28px;
-  width: 28px;
-}
-/* about company details  */
-.company-name-editbtn h5{
-  font-size: 1rem;
-}
-.company-code-logo{
-  
-}
-  
+  .name-avatar h5 {
+    font-size: 1rem;
+  }
+  #avatar_img {
+    height: 28px;
+    width: 28px;
+  }
+  /* about company details  */
+  .company-name-editbtn h5 {
+    font-size: 1rem;
+  }
+
+  /* domains types  */
+  .domains-types {
+    margin-left: 10%;
+  }
+
+  /* types like: entities, invoice and users  */
+  .types-ul-list {
+    padding-left: 0;
+  }
+  .types-ul-list li {
+    font-size: 1rem;
+    padding-left: 1.2rem;
+  }
+  /* entities  and add entity*/
+  .add-entity h5{
+    font-size: 1.2rem;
+  }
+  .biling-details ul li{
+   display: none;
+  }
+  .company1{
+    flex-direction: column;
+  }
+  /* accordian body  */
+   .accordion-body{
+    width: 100%;
+    display: flex;
+  flex-direction: column;
+   }
+  .accordion-body > div{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+  }
+  .table{
+    width: 100%;
+  }
+  .table thead tr th{
+    font-size: 0.8rem;
+  }
+  .table tbody tr td{
+    font-size: 0.6rem;
+  }
+  /* navbar for clints and add button */
+  .navbar-links{
+    display: flex;
+    flex-wrap: nowrap !important;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  /* search box  */
+  .search-box button i{
+    padding: 0 0.5rem;
+  }
+  .form-control{
+    font-size: 0.8rem;
+  }
+  /* select date  */
+  .form-select{
+    font-size: 0.8rem;
+  }
+  .card-container{
+        height: 8vh !important;
+  }
+  .card-container>div{
+      font-size: 1rem !important;
+  }
+  .users{
+    margin-top: -1rem;
+  }
 }

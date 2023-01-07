@@ -18,7 +18,7 @@ function Company1() {
                   aria-controls={`collapse${index}`}
                 >
                   <ul
-                    className="d-flex justify-content-between"
+                    className="d-flex justify-content-between company1"
                     style={{
                       width: "90%",
                       listStyle: "none",
