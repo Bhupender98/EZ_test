@@ -105,12 +105,27 @@ function Company1() {
                     </button>
                   </div>
                 </div>
+                <div className="mou-signed">
+                  <h6>MSLA</h6>
+                  <p>
+                    20200916EZ Lucas films MOU Signed by Georage.pdf &nbsp;
+                    <span>&nbsp;
+                      <i class="fa-solid fa-eye"></i>
+                    </span>
+                    <span>&nbsp;
+                      {" "}
+                      <i class="fa-solid fa-download"></i>
+                    </span>
+                  </p>
+                </div>
 
                 {/* table  */}
-                <h6 style={{color:"gray",padding:"1rem"}}>Cooperate Price as per MSLA</h6>
-                <table class="table">
+                <h6 style={{ color: "gray", padding: "1rem" }}>
+                  Cooperate Price as per MSLA
+                </h6>
+                <table className="table">
                   <thead>
-                    <tr style={{color:"gray"}}>
+                    <tr style={{ color: "gray" }}>
                       <th scope="col">Service</th>
                       <th scope="col">Units</th>
                       <th scope="col">List Price</th>

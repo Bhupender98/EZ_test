@@ -6,11 +6,13 @@
 .ez-logo {
   height: 100%;
   width: 6%;
-  padding: 1rem 0 88% 0;
+  padding: 1rem 0 70% 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #112949;
 }
+
 .clints-company {
   height: auto;
   width: 100%;
@@ -31,6 +33,13 @@
 .ez-logo img {
   height: 50px;
   width: 50px;
+  margin: auto;
+}
+.pink-divs{
+  height: 45px;
+  width:45px;
+  background-color: pink;
+  margin:1rem auto;
 }
 /* navbar nav items color to cyan  */
 .navbar-nav .nav-item a {
@@ -48,7 +57,7 @@
   justify-content: flex-end;
   padding: 0.5rem 1rem;
 }
-.loggedIn img {
+#ez-logo-image {
   display: none;
 }
 .name-avatar {
@@ -132,16 +141,16 @@
   border: none;
   background: transparent;
 }
-
+.mou-signed{
+  padding-left: 2rem;
+}
+.mou-signed span i{
+  color: #3cc3f2;
+  cursor: pointer;
+}
 /* responsiveness for iphone 12 and iphone 13 pro max  */
 @media screen and (max-width: 400px) {
   .ez-logo {
-    /* height: 100%;
-  width: 6%;
-  padding:1rem 0 88% 0; 
-  display: flex;
-  justify-content: center;
-  background-color: #112949; */
     display: none;
   }
   .clints-company {
@@ -169,6 +178,9 @@
     background-color: #112949;
     color: #ffff;
   }
+  #ez-logo-image {
+  display: block;
+}
   .loggedIn img {
     display: block;
   }

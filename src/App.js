@@ -16,6 +16,9 @@ function App() {
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAr3xW1zPY4iJxL0CSJlQHDma2_UsuBOM0mw&usqp=CAU"
           alt="EZ_logo"
         />
+        <div className="pink-divs"></div>
+        <div className="pink-divs"></div>
+        <div className="pink-divs"></div>
       </div>
       <div className="clints-company">
         <div className="clints">

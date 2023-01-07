@@ -6,6 +6,7 @@ function LoggedInPage() {
       <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAr3xW1zPY4iJxL0CSJlQHDma2_UsuBOM0mw&usqp=CAU"
         alt="EZ_logo"
+        id='ez-logo-image'
       />
       <div className="name-avatar">
         <h5>Hi Abhishek, </h5> &nbsp;
