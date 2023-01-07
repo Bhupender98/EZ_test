@@ -1,0 +1,12 @@
+.card-container{
+    height: 14vh;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    margin-top: 5px;
+}
+.card-container >div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0.5rem;
+}

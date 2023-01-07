@@ -1,0 +1,184 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.ez-logo{
+  height: 100%;
+  width: 6%;
+  padding:1rem 0 88% 0; 
+  display: flex;
+  justify-content: center;
+  background-color: #112949;
+}
+.clints-company{
+  height: auto;
+  width: 100%;
+  display: flex;
+  border: 1px solid green;
+}
+.clints{
+  /* border: 1px solid red; */
+  width: 28%;
+  height: auto;
+  padding: 0.5rem;
+}
+.about-company-container{
+  width: 72%;
+  height: auto;
+}
+/* ez logo section  */
+.ez-logo img{
+  height: 50px;
+  width: 50px;
+}
+/* navbar nav items color to cyan  */
+.navbar-nav .nav-item a{
+  color: #3CC3F2 !important;
+}
+.down-arrow img{
+  height: 25px;
+  width: 25px;
+}
+.loggedIn{
+  height: 8vh;
+  width: 100%;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+}
+.name-avatar{
+  display: flex;
+  align-items: center;
+}
+#avatar_img{
+  height: 40px;
+  width: 40px;
+}
+/* about company */
+.about-company{
+  height: auto;
+  width: 100%;
+}
+.company-name-editbtn{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 1rem;
+  border: 1px solid lightgray;
+}
+.company-name-editbtn img{
+  height: 45px;
+  width: 45px;
+}
+.company-code-logo{
+  padding: 0.5rem 1rem;
+}
+
+/* domains types and their names  */
+.Domains{
+  display: flex;
+  height: auto;
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.Domains span{
+  color: #9CBDEB;
+  font-size: 0.9rem;
+}
+.domains-types{
+  margin-left: 30%;
+} 
+.domains-types .ul-list{
+  list-style-type: none;
+}
+
+/* types like: entities invoice and users  */
+.types-ul-list{
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid lightgray;
+}
+.types-ul-list li{
+  padding-left: 10px;
+}
+.biling-details ul{
+  list-style-type: none;
+}
+.biling-details ul li{
+  font-size: 0.95rem;
+}
+
+
+/* accordian  */
+.accordians ul{
+  list-style-type: none;
+}
+.accordians ul li{
+  color: gray;
+  font-size: 0.95rem;
+}
+.accordians ul li span{
+  color: #112949;
+  font-size: 0.85rem;
+  padding: 10px;
+}
+#editButton{
+  font-size: 1.8rem;
+  padding: 0.4rem 1rem;
+  color: #3CC3F2;
+  border: none;
+  background: transparent;
+}
+@media screen and (max-width: 400px) {
+  .ez-logo{
+  /* height: 100%;
+  width: 6%;
+  padding:1rem 0 88% 0; 
+  display: flex;
+  justify-content: center;
+  background-color: #112949; */
+  display: none;
+}
+.clints-company{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  border: 1px solid green;
+}
+.clints{
+  width: 100%;
+  height: auto;
+  padding: 0.5rem;
+}
+.about-company-container{
+  width: 100%;
+  height: auto;
+}
+/* loggedIn page  */
+.loggedIn{
+  height: 5vh;
+}
+.name-avatar{
+  display: flex;
+  align-items: center;
+}
+
+.name-avatar h5{
+  font-size: 1rem;
+}
+#avatar_img{
+  height: 28px;
+  width: 28px;
+}
+/* about company details  */
+.company-name-editbtn h5{
+  font-size: 1rem;
+}
+.company-code-logo{
+  
+}
+  
+}
