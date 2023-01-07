@@ -110,11 +110,11 @@ function Company1() {
                   <p>
                     20200916EZ Lucas films MOU Signed by Georage.pdf &nbsp;
                     <span>&nbsp;
-                      <i class="fa-solid fa-eye"></i>
+                      <i className="fa-solid fa-eye"></i>
                     </span>
                     <span>&nbsp;
                       {" "}
-                      <i class="fa-solid fa-download"></i>
+                      <i className="fa-solid fa-download"></i>
                     </span>
                   </p>
                 </div>
